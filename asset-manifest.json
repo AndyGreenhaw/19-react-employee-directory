@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/AndyGreenhaw/19-react-employee-directory/static/css/main.d5f19544.chunk.css",
+    "main.js": "/AndyGreenhaw/19-react-employee-directory/static/js/main.0495dec5.chunk.js",
+    "main.js.map": "/AndyGreenhaw/19-react-employee-directory/static/js/main.0495dec5.chunk.js.map",
+    "runtime-main.js": "/AndyGreenhaw/19-react-employee-directory/static/js/runtime-main.0c13bf54.js",
+    "runtime-main.js.map": "/AndyGreenhaw/19-react-employee-directory/static/js/runtime-main.0c13bf54.js.map",
+    "static/js/2.4ea48d56.chunk.js": "/AndyGreenhaw/19-react-employee-directory/static/js/2.4ea48d56.chunk.js",
+    "static/js/2.4ea48d56.chunk.js.map": "/AndyGreenhaw/19-react-employee-directory/static/js/2.4ea48d56.chunk.js.map",
+    "index.html": "/AndyGreenhaw/19-react-employee-directory/index.html",
+    "static/css/main.d5f19544.chunk.css.map": "/AndyGreenhaw/19-react-employee-directory/static/css/main.d5f19544.chunk.css.map",
+    "static/js/2.4ea48d56.chunk.js.LICENSE.txt": "/AndyGreenhaw/19-react-employee-directory/static/js/2.4ea48d56.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0c13bf54.js",
+    "static/js/2.4ea48d56.chunk.js",
+    "static/css/main.d5f19544.chunk.css",
+    "static/js/main.0495dec5.chunk.js"
+  ]
+}
