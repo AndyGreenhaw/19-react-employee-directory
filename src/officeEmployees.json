@@ -2,179 +2,227 @@
   {
     "id": 1,
     "name": "Michael Scott",
+    "firstName": "Michael",
+    "lastName": "Scott",
     "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
-    "occupation": "Fry Cook",
-    "location": "A Pineapple Under the Sea",
-    "show": "SpongeBob"
+    "occupation": "Regional Branch Manager",
+    "department": "Management"
   },
   {
     "id": 2,
     "name": "Dwight Schrute",
+    "firstName": "Dwight",
+    "lastName": "Schrute",
     "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
-    "occupation": "Restaurant Owner",
-    "location": "A Giant Anchor",
-    "show": "SpongeBob"
+    "occupation": "Sales Rep",
+    "department": "Sales"
   },
   {
     "id": 3,
     "name": "Jim Halpert",
+    "firstName": "Jim",
+    "lastName": "Halpert",
     "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
-    "occupation": "Cashier",
-    "location": "An Easter Island Head"
+    "occupation": "Sales Rep",
+    "department": "Sales"
   },
   {
     "id": 4,
     "name": "Pam Beesly",
+    "firstName": "Pam",
+    "lastName": "Beesly",
     "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
-    "occupation": "Boy Genius",
-    "location": "A Secret Laboratory"
+    "occupation": "Receptionist",
+    "department": "Reception"
   },
   {
     "id": 5,
     "name": "Ryan Howard",
+    "firstName": "Ryan",
+    "lastName": "Howard",
     "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
-    "occupation": "A Cowardly Dog",
-    "location": "Nowhere, Kansas"
+    "occupation": "Intern",
+    "department": "Internships"
   },
   {
     "id": 6,
     "name": "Stanley Hudson",
+    "firstName": "Stanley",
+    "lastName": "Hudson",
     "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
-    "occupation": "Student",
-    "location": "Bluffington"
+    "occupation": "Sales Rep",
+    "department": "Sales"
   },
   {
     "id": 7,
     "name": "Phyllis Lapin",
+    "firstName": "Phyllis",
+    "lastName": "Lapin",
     "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
-    "occupation": "Looney Toon",
-    "location": "A Rabbit Burrow"
+    "occupation": "Sales Rep",
+    "department": "Sales"
   },
   {
     "id": 8,
     "name": "Kevin Malone",
+    "firstName": "Kevin",
+    "lastName": "Malone",
     "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
-    "occupation": "Ladies Man",
-    "location": "Aron City"
+    "occupation": "Accountant",
+    "department": "Accounting"
   },
   {
     "id": 9,
     "name": "Angela Martin",
+    "firstName": "Angela",
+    "lastName": "Martin",
     "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
-    "occupation": "Adventurer",
-    "location": "California"
+    "occupation": "Accounting Manager",
+    "department": "Accounting"
   },
   {
     "id": 10,
     "name": "Oscar Martinez",
+    "firstName": "Oscar",
+    "lastName": "Martinez",
     "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
-    "occupation": "Cashier",
-    "location": "O-Town, California"
+    "occupation": "Accountant",
+    "department": "Accounting"
   },
   {
     "id": 11,
     "name": "Kelly Kapoor",
+    "firstName": "Kelly",
+    "lastName": "Kapoor",
     "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
-    "occupation": "Superhero",
-    "location": "Earth"
+    "occupation": "Customer Service Rep",
+    "department": "Customer Service"
   },
   {
     "id": 12,
     "name": "Toby Flenderson",
+    "firstName": "Toby",
+    "lastName": "Flenderson",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "Human Resources Rep",
+    "department": "Human Resources"
   },
   {
     "id": 13,
     "name": "Meredith Palmer",
+    "firstName": "Meredith",
+    "lastName": "Palmer",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "Accountant",
+    "department": "Accounting"
   },
   {
     "id": 14,
     "name": "Creed Bratton",
+    "firstName": "Creed",
+    "lastName": "Bratton",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "Unknown",
+    "department": "Unknown"
   },
   {
     "id": 15,
     "name": "Jan Levinson",
+    "firstName": "Jan",
+    "lastName": "Levinson",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "Vice President of NE Sales",
+    "department": "Sales"
   },
   {
     "id": 16,
     "name": "Roy Anderson",
+    "firstName": "Roy",
+    "lastName": "Anderson",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "Warehouse worker",
+    "department": "Warehouse"
   },
   {
     "id": 17,
     "name": "Darryl Philbin",
+    "firstName": "Darryl",
+    "lastName": "Philbin",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "Warehouse Manager",
+    "department": "Warehouse"
   },
   {
     "id": 18,
     "name": "Karen Flippelli",
+    "firstName": "Karen",
+    "lastName": "Flippelli",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "Regional Manager",
+    "department": "Management"
   },
   {
     "id": 19,
     "name": "Andy Bernard",
+    "firstName": "Andy",
+    "lastName": "Bernard",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "Sales Rep",
+    "department": "Sales"
   },
   {
     "id": 20,
     "name": "Erin Hannon",
+    "firstName": "Erin",
+    "lastName": "Hannon",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "Receptionist",
+    "department": "Reception"
   },
   {
     "id": 21,
     "name": "Gabe Lewis",
+    "firstName": "Gabe",
+    "lastName": "Lewis",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "Director of Regions Coordination",
+    "department": "Management"
   },
   {
     "id": 22,
     "name": "Robert California",
+    "firstName": "Robert",
+    "lastName": "California",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "CEO",
+    "department": "Management"
   },
   {
     "id": 23,
     "name": "Nellie Bertram",
+    "firstName": "Nellie",
+    "lastName": "Bertram",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "President of Special Projects",
+    "department": "Management"
   },
   {
     "id": 24,
     "name": "Clark Green",
+    "firstName": "Clark",
+    "lastName": "Green",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "Jr. Sales Rep",
+    "department": "Sales"
   },
   {
-    "id": 24,
+    "id": 25,
     "name": "Pete Miller",
+    "firstName": "Pete",
+    "lastName": "Miller",
     "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
-    "occupation": "Ahhhh! A Real Monster!",
-    "location": "Under a City Dump"
+    "occupation": "Customer Service Rep",
+    "department": "Customer Service"
   }
 
 ]

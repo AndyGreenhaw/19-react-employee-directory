@@ -1,8 +1,21 @@
+.tableHeader {
+  padding: 20px;
+  margin: 20px;
+  outline: 1px solid black;
+  font-weight: bold;
+}
+
 .tableCell {
   padding: 20px;
   margin: 20px;
   outline: 1px solid black;
 }
+
+.remove {
+  color: red;
+  cursor: pointer;
+}
+
 
 /* .card {
   background: #fff;

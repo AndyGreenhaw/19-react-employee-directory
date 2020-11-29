@@ -1,7 +1,7 @@
 import React from 'react';
-import EmployeeCard from './components/FriendCard';
-import Title from './components/Title';
+import EmployeeCard from './components/EmployeeCard';
 import Employees from './officeEmployees.json';
+import "./style.css";
 
 class App extends React.Component {
 
@@ -46,16 +46,42 @@ class App extends React.Component {
 
         <div className="row">
           <div className="col-12">
-            <Title>Employees</Title>
+            <h1>Employees</h1>
           </div>
         </div>
 
         <div className="row">
           <div className="col-12">
             <table>
-              {this.state.employeeArr.map(friend => (
-                <EmployeeCard key={friend.id} {...friend} filterArray={this.filterArray}/>
-              ))}
+                <tbody>
+                  <tr className="tableCell">
+                    <td className="tableHeader">FIRST NAME</td>
+                    <td className="tableHeader">LAST NAME</td>
+                    <td className="tableHeader">OCCUPATION</td>
+                    <td className="tableHeader">DEPARTMENT</td>
+                    <td className="tableHeader">FIRE</td>
+                  </tr>
+                  <tr className="tableCell">
+                    <td className="tableCell">
+                      <button>Ʌ</button><button>V</button>
+                    </td>
+                    <td className="tableCell">
+                      <button>Ʌ</button><button>V</button>
+                    </td>
+                    <td className="tableCell">
+                      <button>Ʌ</button><button>V</button>
+                    </td>
+                    <td className="tableCell">
+                      <button>Ʌ</button><button>V</button>
+                    </td>
+                    <td className="tableCell">
+                      <button>Ʌ</button><button>V</button>
+                    </td>
+                  </tr>
+                  {this.state.employeeArr.map(friend => (
+                    <EmployeeCard key={friend.id} {...friend} filterArray={this.filterArray}/>
+                  ))}
+               </tbody>
             </table>
           </div>
         </div>
