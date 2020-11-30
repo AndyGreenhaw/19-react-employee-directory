@@ -1,6 +1,7 @@
 import React from 'react';
 import EmployeeCard from './components/EmployeeCard';
 import Employees from './officeEmployees.json';
+import SearchForm from './components/SearchForm/SearchForm.js'
 import "./style.css";
 
 class App extends React.Component {
@@ -9,25 +10,32 @@ class App extends React.Component {
     employeeArr: Employees
   }
 
-  filterArray = (id) => {
-    // This ID matches the friend card based on the code at the bottom of index
-    console.log(id);
+  // HANDLE INPUT CHANGE
+  handleInputChange = event => {
+    const { value } = event.target
+    console.log({value})
+    this.setState({...this.state, query: value})
+  }
 
-    // modify the array in state, and filer out whatever match id is passed in
-    const filteredArray = this.state.employeeArr.filter( employee => employee.id !== id )
+  // SEE ALL EMPLOYEES
+  seeAll = (e) => {
+    e.preventDefault()
+    this.setState({employeeArr: Employees})
+  }
+
+  // SORT BY DEPARTMENT
+  sortDept = (e) => {
+    e.preventDefault()
+    const filteredArray = this.state.employeeArr.filter( employee => employee.department === this.state.query.toLowerCase());
     console.log(filteredArray)
-
     this.setState({employeeArr: filteredArray})
   }
 
-  filterShow = (show) => {
-    // This ID matches the friend card based on the code at the bottom of index
-    console.log(show);
-
-    // modify the array in state, and filer out whatever match id is passed in
-    const filteredArray = this.state.employeeArr.filter( employee => employee.show !== show )
+  // DELETE (FIRE) FUNCTION
+  deleteEmployee = (id) => {
+    console.log(id);
+    const filteredArray = this.state.employeeArr.filter( employee => employee.id !== id )
     console.log(filteredArray)
-
     this.setState({employeeArr: filteredArray})
   }
 
@@ -36,50 +44,42 @@ class App extends React.Component {
       <div className="container">
 
         <div className="row">
-          <div className="col-6">
-            <button>Sort by Show</button>
-          </div>
-          <div className="col-6">
-            <button>Sort Employees Alphabetically</button>
-          </div>
-        </div>
-
-        <div className="row">
           <div className="col-12">
-            <h1>Employees</h1>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-12">
-            <table>
+            <h2>Employee Directory</h2>
+              <SearchForm
+                query={this.state.query}
+                handleInputChange={this.handleInputChange}
+                sortDept={this.sortDept}
+                seeAll={this.seeAll}
+              />
+              <table className="center">
                 <tbody>
                   <tr className="tableCell">
-                    <td className="tableHeader">FIRST NAME</td>
-                    <td className="tableHeader">LAST NAME</td>
-                    <td className="tableHeader">OCCUPATION</td>
-                    <td className="tableHeader">DEPARTMENT</td>
-                    <td className="tableHeader">FIRE</td>
+                    <td className="tableTitle">FIRST NAME</td>
+                    <td className="tableTitle">LAST NAME</td>
+                    <td className="tableTitle">DEPARTMENT</td>
+                    <td className="tableTitle">OCCUPATION</td>
+                    <td className="tableTitle">FIRE</td>
                   </tr>
                   <tr className="tableCell">
                     <td className="tableCell">
-                      <button>Ʌ</button><button>V</button>
+                      <button className="alphaButtons">Ʌ</button><button className="alphaButtons">V</button>
                     </td>
                     <td className="tableCell">
-                      <button>Ʌ</button><button>V</button>
+                      <button className="alphaButtons">Ʌ</button><button className="alphaButtons">V</button>
                     </td>
                     <td className="tableCell">
-                      <button>Ʌ</button><button>V</button>
+                      <button className="alphaButtons">Ʌ</button><button className="alphaButtons">V</button>
                     </td>
                     <td className="tableCell">
-                      <button>Ʌ</button><button>V</button>
+                      <button className="alphaButtons">Ʌ</button><button className="alphaButtons">V</button>
                     </td>
                     <td className="tableCell">
-                      <button>Ʌ</button><button>V</button>
+                      <button className="alphaButtons">Ʌ</button><button className="alphaButtons">V</button>
                     </td>
                   </tr>
                   {this.state.employeeArr.map(friend => (
-                    <EmployeeCard key={friend.id} {...friend} filterArray={this.filterArray}/>
+                    <EmployeeCard key={friend.id} {...friend} filterArray={this.deleteEmployee}/>
                   ))}
                </tbody>
             </table>

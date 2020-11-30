@@ -1,20 +1,83 @@
+body {
+  background-color: rgb(23,23,23);
+}
+
+h1 {
+  color: white;
+  font-family: 'Hind Siliguri';
+  font-weight: lighter;
+}
+
+.searchInput {
+  color: black;
+  background-color: whitesmoke;
+  margin-left: 20px;
+}
+
+.searchButton {
+  color: black;
+  background-color: whitesmoke;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: white;
+  font-family: 'Hind Siliguri';
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-right: auto;
+  text-align: center;
+}
+
+.center{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.inline {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.alphaButtons {
+  color: black;
+}
+
 .tableHeader {
   padding: 20px;
   margin: 20px;
-  outline: 1px solid black;
+  color: whitesmoke;
+  outline: 1px solid white;
+  font-weight: bold;
+  width: 100%;
+  white-space: nowrap;
+}
+
+.tableTitle {
+  padding: 20px;
+  margin: 20px;
+  color: whitesmoke;
+  background-color: rgb(23,23,23);
+  outline: 1px solid white;
   font-weight: bold;
 }
 
 .tableCell {
+  color: white;
   padding: 20px;
   margin: 20px;
-  outline: 1px solid black;
+  outline: 1px solid white;
+  text-transform: capitalize;
 }
 
 .remove {
   color: red;
   cursor: pointer;
 }
+
 
 
 /* .card {
