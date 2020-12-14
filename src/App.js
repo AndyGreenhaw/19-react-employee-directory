@@ -1,5 +1,5 @@
 import React from 'react';
-import EmployeeCard from './components/EmployeeCard';
+import EmployeeCard from './components/EmployeeCard/employeeCard';
 import Employees from './officeEmployees.json';
 import SearchForm from './components/SearchForm/SearchForm.js'
 import "./style.css";
@@ -7,7 +7,10 @@ import "./style.css";
 class App extends React.Component {
 
   state = {
-    employeeArr: Employees
+    employeeArr: Employees,
+    // imageArray: [
+    //   require()
+    // ]
   }
 
   // HANDLE INPUT CHANGE
@@ -55,6 +58,7 @@ class App extends React.Component {
               <table className="center">
                 <tbody>
                   <tr className="tableCell">
+                    <td className="tableTitle">PHOTO</td>
                     <td className="tableTitle">FIRST NAME</td>
                     <td className="tableTitle">LAST NAME</td>
                     <td className="tableTitle">DEPARTMENT</td>
@@ -63,23 +67,44 @@ class App extends React.Component {
                   </tr>
                   <tr className="tableCell">
                     <td className="tableCell">
-                      <button className="alphaButtons">Ʌ</button><button className="alphaButtons">V</button>
+                      <button 
+                        className="alphaButtons"
+                        onClick="sortAlpha"
+                      >abc
+                      </button>
+                  
                     </td>
                     <td className="tableCell">
-                      <button className="alphaButtons">Ʌ</button><button className="alphaButtons">V</button>
+                      <button 
+                        className="alphaButtons"
+                        onClick="sortAlpha"
+                      >abc
+                      </button>
                     </td>
                     <td className="tableCell">
-                      <button className="alphaButtons">Ʌ</button><button className="alphaButtons">V</button>
+                      <button 
+                        className="alphaButtons"
+                        onClick="sortAlpha"
+                      >abc
+                      </button>
                     </td>
                     <td className="tableCell">
-                      <button className="alphaButtons">Ʌ</button><button className="alphaButtons">V</button>
+                      <button 
+                        className="alphaButtons"
+                        onClick="sortAlpha"
+                      >abc
+                      </button>
                     </td>
                     <td className="tableCell">
-                      <button className="alphaButtons">Ʌ</button><button className="alphaButtons">V</button>
+                      <button 
+                        className="alphaButtons"
+                        onClick="sortAlpha"
+                      >abc
+                      </button>
                     </td>
                   </tr>
-                  {this.state.employeeArr.map(friend => (
-                    <EmployeeCard key={friend.id} {...friend} filterArray={this.deleteEmployee}/>
+                  {this.state.employeeArr.map(employee => (
+                    <EmployeeCard key={employee.id} {...employee} filterArray={this.deleteEmployee}/>
                   ))}
                </tbody>
             </table>

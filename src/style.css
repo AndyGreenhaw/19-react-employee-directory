@@ -2,6 +2,11 @@ body {
   background-color: rgb(23,23,23);
 }
 
+img {
+  /* width: 100px;
+  height: 150px; */
+}
+
 h1 {
   color: white;
   font-family: 'Hind Siliguri';

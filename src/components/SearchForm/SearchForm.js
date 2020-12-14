@@ -16,12 +16,13 @@ const SearchForm = (props) => {
                     onClick={props.sortDept}>Search
                 </button>
             </form> 
-            <div className="center">
-            <button
-            type="button"
-            className="searchButton"
-            onClick={props.seeAll}>See All</button>
-            </div>
+                <div className="center">
+                    <button 
+                        type="submit" 
+                        className="searchButton"
+                        onClick={props.seeAll}>See All
+                    </button>
+                </div>
         </>
     )
 }

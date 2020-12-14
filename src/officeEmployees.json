@@ -4,225 +4,250 @@
     "name": "Michael Scott",
     "firstName": "Michael",
     "lastName": "Scott",
-    "image": "https://vignette.wikia.nocookie.net/spongebobgalaxy/images/0/07/SpongeBob_SquarePants.png/revision/latest?cb=20171228024014",
     "occupation": "Regional Branch Manager",
-    "department": "management"
+    "department": "management",
+    "image": "michael-scott.png",
+    "imageURL": "19-react-employee-directory/images/michael-scott.png"
   },
   {
     "id": 2,
     "name": "Dwight Schrute",
     "firstName": "Dwight",
     "lastName": "Schrute",
-    "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131",
     "occupation": "Sales Rep",
-    "department": "sales"
+    "department": "sales",
+    "image": "dwight.png",
+    "imageURL": "19-react-employee-directory/images/dwight.png"
   },
   {
     "id": 3,
     "name": "Jim Halpert",
     "firstName": "Jim",
     "lastName": "Halpert",
-    "image": "https://vignette2.wikia.nocookie.net/fictionalcharacters/images/a/ac/Squidward.png/revision/latest?cb=20131121012626",
     "occupation": "Sales Rep",
-    "department": "sales"
+    "department": "sales",
+    "image": "jim.png",
+    "imageURL": "19-react-employee-directory/images/jim.png"
   },
   {
     "id": 4,
     "name": "Pam Beesly",
     "firstName": "Pam",
     "lastName": "Beesly",
-    "image": "https://s-media-cache-ak0.pinimg.com/originals/fe/32/49/fe32495d45283cd6860ae122f0aeaad9.png",
     "occupation": "Receptionist",
-    "department": "reception"
+    "department": "reception",
+    "image": "pam.png",
+    "imageURL": "19-react-employee-directory/images/pam.png"
   },
   {
     "id": 5,
     "name": "Ryan Howard",
     "firstName": "Ryan",
     "lastName": "Howard",
-    "image": "https://vignette4.wikia.nocookie.net/vsbattles/images/3/39/Courage-0.png/revision/latest?cb=20160719055423",
     "occupation": "Intern",
-    "department": "internships"
+    "department": "internships",
+    "image": "ryan.png",
+    "imageURL": "19-react-employee-directory/images/ryan.png"
   },
   {
     "id": 6,
     "name": "Stanley Hudson",
     "firstName": "Stanley",
     "lastName": "Hudson",
-    "image": "https://vignette1.wikia.nocookie.net/doug/images/3/3b/Doug001.gif/revision/latest?cb=20110807170511",
     "occupation": "Sales Rep",
-    "department": "sales"
+    "department": "sales",
+    "image": "stanley.png",
+    "imageURL": "19-react-employee-directory/images/stanley.png"
   },
   {
     "id": 7,
     "name": "Phyllis Lapin",
     "firstName": "Phyllis",
     "lastName": "Lapin",
-    "image": "https://vignette2.wikia.nocookie.net/deathbattlefanon/images/2/2b/Bugs_Bunny.png/revision/latest?cb=20151206010607",
     "occupation": "Sales Rep",
-    "department": "sales"
+    "department": "sales",
+    "image": "phyllis.png",
+    "imageURL": "19-react-employee-directory/images/phyllis.png"
   },
   {
     "id": 8,
     "name": "Kevin Malone",
     "firstName": "Kevin",
     "lastName": "Malone",
-    "image": "http://vignette3.wikia.nocookie.net/p__/images/9/9a/Johnny_Bravo.png/revision/latest?cb=20131031233339&path-prefix=protagonist",
     "occupation": "Accountant",
-    "department": "accounting"
+    "department": "accounting",
+    "image": "kevin.png",
+    "imageURL": "19-react-employee-directory/images/kevin.png"
   },
   {
     "id": 9,
     "name": "Angela Martin",
     "firstName": "Angela",
     "lastName": "Martin",
-    "image": "https://vignette4.wikia.nocookie.net/uncyclopedia/images/e/e4/Tommy_Pickles.png/revision/latest?cb=20110530102641",
     "occupation": "Accounting Manager",
-    "department": "accounting"
+    "department": "accounting",
+    "image": "angela.png",
+    "imageURL": "19-react-employee-directory/images/angela.png"
   },
   {
     "id": 10,
     "name": "Oscar Martinez",
     "firstName": "Oscar",
     "lastName": "Martinez",
-    "image": "http://vignette3.wikia.nocookie.net/rockosmodernlife/images/9/9e/Rockos-modern-life-4e582a8f06a41.png/revision/latest?cb=20130522173416",
     "occupation": "Accountant",
-    "department": "accounting"
+    "department": "accounting",
+    "image": "oscar.png",
+    "imageURL": "19-react-employee-directory/images/oscar.png"
   },
   {
     "id": 11,
     "name": "Kelly Kapoor",
     "firstName": "Kelly",
     "lastName": "Kapoor",
-    "image": "http://vignette2.wikia.nocookie.net/dragon-rap-battles/images/b/b6/Captain_Planet.png/revision/latest?cb=20160911200836",
     "occupation": "Customer Service Rep",
-    "department": "customer service"
+    "department": "customer service",
+    "image": "kelly.png",
+    "imageURL": "19-react-employee-directory/images/kelly.png"
   },
   {
     "id": 12,
     "name": "Toby Flenderson",
     "firstName": "Toby",
     "lastName": "Flenderson",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Human Resources Rep",
-    "department": "human resources"
+    "department": "human resources",
+    "image": "toby.png",
+    "imageURL": "19-react-employee-directory/images/toby.png"
   },
   {
     "id": 13,
     "name": "Meredith Palmer",
     "firstName": "Meredith",
     "lastName": "Palmer",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Accountant",
-    "department": "accounting"
+    "department": "accounting",
+    "image": "meredith.png",
+    "imageURL": "19-react-employee-directory/images/meredith.png"
   },
   {
     "id": 14,
     "name": "Creed Bratton",
     "firstName": "Creed",
     "lastName": "Bratton",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Unknown",
-    "department": "unknown"
+    "department": "unknown",
+    "image": "creed.png",
+    "imageURL": "19-react-employee-directory/images/creed.png"
   },
   {
     "id": 15,
     "name": "Jan Levinson",
     "firstName": "Jan",
     "lastName": "Levinson",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Vice President of NE Sales",
-    "department": "sales"
+    "department": "sales",
+    "image": "jan.png",
+    "imageURL": "19-react-employee-directory/images/jan.png"
   },
   {
     "id": 16,
     "name": "Roy Anderson",
     "firstName": "Roy",
     "lastName": "Anderson",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Warehouse worker",
-    "department": "warehouse"
+    "department": "warehouse",
+    "image": "roy.png",
+    "imageURL": "19-react-employee-directory/images/roy.png"
   },
   {
     "id": 17,
     "name": "Darryl Philbin",
     "firstName": "Darryl",
     "lastName": "Philbin",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Warehouse Manager",
-    "department": "warehouse"
+    "department": "warehouse",
+    "image": "darryl.png",
+    "imageURL": "19-react-employee-directory/images/darryl.png"
   },
   {
     "id": 18,
     "name": "Karen Flippelli",
     "firstName": "Karen",
     "lastName": "Flippelli",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Regional Manager",
-    "department": "management"
+    "department": "management",
+    "image": "karen.png",
+    "imageURL": "19-react-employee-directory/images/karen.png"
   },
   {
     "id": 19,
     "name": "Andy Bernard",
     "firstName": "Andy",
     "lastName": "Bernard",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Sales Rep",
-    "department": "sales"
+    "department": "sales",
+    "image": "andy-bernard.png",
+    "imageURL": "19-react-employee-directory/images/andy-bernard.png"
   },
   {
     "id": 20,
     "name": "Erin Hannon",
     "firstName": "Erin",
     "lastName": "Hannon",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Receptionist",
-    "department": "reception"
+    "department": "reception",
+    "image": "erin.png",
+    "imageURL": "19-react-employee-directory/images/erin.png"
   },
   {
     "id": 21,
     "name": "Gabe Lewis",
     "firstName": "Gabe",
     "lastName": "Lewis",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Director of Regions Coordination",
-    "department": "management"
+    "department": "management",
+    "image": "gabe.png",
+    "imageURL": "19-react-employee-directory/images/gabe.png"
   },
   {
     "id": 22,
     "name": "Robert California",
     "firstName": "Robert",
     "lastName": "California",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "CEO",
-    "department": "management"
+    "department": "management",
+    "image": "robert-california.png",
+    "imageURL": "19-react-employee-directory/images/robert-california.png"
   },
   {
     "id": 23,
     "name": "Nellie Bertram",
     "firstName": "Nellie",
     "lastName": "Bertram",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "President of Special Projects",
-    "department": "management"
+    "department": "management",
+    "image": "nellie.png",
+    "imageURL": "19-react-employee-directory/images/nellie.png"
   },
   {
     "id": 24,
     "name": "Clark Green",
     "firstName": "Clark",
     "lastName": "Green",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Jr. Sales Rep",
-    "department": "sales"
+    "department": "sales",
+    "image": "clark.png",
+    "imageURL": "19-react-employee-directory/images/clark.png"
   },
   {
     "id": 25,
     "name": "Pete Miller",
     "firstName": "Pete",
     "lastName": "Miller",
-    "image": "http://static.tvtropes.org/pmwiki/pub/images/ickis.png",
     "occupation": "Customer Service Rep",
-    "department": "customer service"
+    "department": "customer service",
+    "image": "pete.png",
+    "imageURL": "19-react-employee-directory/images/pete.png"
   }
 
 ]
